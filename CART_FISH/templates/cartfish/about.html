@@ -1,0 +1,33 @@
+<html>
+    {% extends 'cartfish/index.html' %}
+
+    {% load static %}
+    {%block body_block%}
+    <link rel="stylesheet" href="{% static 'cartfish/about.css' %}">
+
+    <div class="grid-container">
+
+        <div class="grid-child img">
+            <img src="../static/image/beta.png" alt="">
+        </div>
+    
+        <div class="grid" id="tam">
+            <h1><b>Aquarium Fish</b></h1><br>
+            <p>Aquarium Fish
+                Looking to Buy aquarium fish online? Whether you're buying your very first aquarium fish to start your fish-keeping 
+                journey or searching for an adorable tankmate for your pet fish, you're at the right. <br><br>
+                
+                FishyKart is the most-loved online aquarium fish store with different types of aquarium fish including Betta, Cichlids,
+                Tetra, Guppy and many more. While we specialise in freshwater aquarium fish, we have an ever-growing range of saltwater 
+                aquarium fish in our store. Our goal is to help people who buy aquarium fish online with a spectacular experience by 
+                offering the highest quality aquarium solutions and services. <br><br>
+                
+                According to the research of having an aquarium is many health benefits like reduce stress, blood pressure and heart 
+                rate improvement, better quality sleep, reduce anxiety and pain, therapy of excited children, Alzheimer's therapy and 
+                improve productivity.
+            </p>
+        </div>
+      
+    </div>
+    {% endblock %}
+</html>

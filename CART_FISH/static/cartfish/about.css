@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.grid-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-child img{
+    justify-items: center;
+    margin-left: 200px;
+}
+.grid{
+    width: 70%;
+}
+#tam h1{
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 90px;
+    color: rgb(5, 65, 65);
+}
+
+#tam p{
+    color: rgb(5, 65, 65);
+}

@@ -1,0 +1,13 @@
+<html>
+    {% extends 'cartfish/index.html' %}
+
+    {% load static %}
+    {%block body_block%}
+    <h1>Insert or Udate the Record</h1>
+    <form method="POST">
+        {{form.as_p}}
+        {%csrf_token%}
+        <input type="submit" value="Insert/Update Record">
+    </form>
+    {% endblock %}
+</html>

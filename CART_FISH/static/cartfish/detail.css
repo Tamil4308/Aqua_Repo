@@ -1,0 +1,31 @@
+.btn{
+    width: 100px;
+    margin-left: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+body{
+    background-color: rgba(24, 111, 111, 0.258);
+}
+
+.card{
+    color: rgb(5, 65, 65);
+    font-weight: 500;
+    margin-left: 425px;
+    margin-top: 90px;
+}
+
+.card h1{
+    align-self: center;
+}
+
+.card img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-body{
+    margin-left: 60px;
+    margin-top: 50px;
+}
